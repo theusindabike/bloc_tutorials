@@ -3,10 +3,10 @@ import 'dart:convert';
 
 import 'package:bloc/bloc.dart';
 import 'package:bloc_concurrency/bloc_concurrency.dart';
-//import 'package:bloc_tutorials/bloc/bloc.dart';
 import 'package:bloc_tutorials/posts/models/post.dart';
 import 'package:equatable/equatable.dart';
 import 'package:http/http.dart' as http;
+// ignore: depend_on_referenced_packages
 import 'package:stream_transform/stream_transform.dart';
 
 part 'post_event.dart';

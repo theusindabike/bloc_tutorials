@@ -1,11 +1,8 @@
+import 'package:bloc_tutorials/posts/bloc/post_bloc.dart';
+import 'package:bloc_tutorials/posts/widgets/bottom_loader.dart';
+import 'package:bloc_tutorials/posts/widgets/post_list_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:bloc_tutorials/posts/models/post.dart';
-
-import 'package:bloc_tutorials/posts/bloc/post_bloc.dart';
-
-import '../widgets/bottom_loader.dart';
-import '../widgets/post_list_item.dart';
 
 class PostsList extends StatefulWidget {
   const PostsList({super.key});
