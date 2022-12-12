@@ -15,7 +15,8 @@ class App extends MaterialApp {
 //   Widget build(BuildContext context) {
 //     return MaterialApp(
 //       theme: ThemeData(
-//         appBarTheme: const AppBarTheme(color: Color.fromARGB(255, 26, 2, 82)),
+//         appBarTheme: const AppBarTheme(
+//                  color: Color.fromARGB(255, 26, 2, 82)),
 //         colorScheme: ColorScheme.fromSwatch(
 //           accentColor: Color.fromARGB(255, 212, 255, 19),
 //         ),
