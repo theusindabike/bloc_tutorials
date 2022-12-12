@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 class App extends MaterialApp {
   const App({super.key}) : super(home: const PostsPage());
 }
-
 // import 'package:flutter/material.dart';
 // import 'package:bloc_tutorials/counter/counter.dart';
 // import 'package:bloc_tutorials/l10n/l10n.dart';
